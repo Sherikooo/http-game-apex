@@ -6,7 +6,7 @@ export const offsets = {
   core: {
     levelName: BigInt(0x144df40),     // [Miscellaneous]                  -> LevelName
     clEntityList: BigInt(0x1b2e708),  // [Miscellaneous]                  -> cl_entitylist
-    localPlayer: BigInt(0x1e49268)    // [Miscellaneous]                  -> LocalPlayer
+    localPlayer: BigInt(0x01edf800 + 0x8)    // [Miscellaneous]                  -> LocalPlayer
   },
   entity: {
     localOrigin: 0x0054,               // [DataMap.CBaseViewModel]         -> m_localOrigin
