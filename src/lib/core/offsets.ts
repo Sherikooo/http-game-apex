@@ -9,7 +9,7 @@ export const offsets = {
     localPlayer: BigInt(0x01edf808)    // [Miscellaneous]                  -> LocalPlayer
   },
   entity: {
-    localOrigin: 0x0004,               // [DataMap.CBaseViewModel]         -> m_localOrigin
+    localOrigin: 0x0158,               // [DataMap.CBaseViewModel]         -> m_localOrigin
     iSignifierName: 0x0580,            // [RecvTable.DT_BaseEntity]        -> m_iSignifierName
     lastVisibleTime: 0x1a70           // [Miscellaneous]                  -> CPlayer!lastVisibleTime
   },
