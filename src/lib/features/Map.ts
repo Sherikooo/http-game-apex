@@ -82,13 +82,15 @@ export class Map {
 
 function getDataByLevelName(levelName: string) {
   switch (levelName) {
-    case 'mp_rr_canyonlands_mu3':
+    case 'mp_rr_canyonlands_hu':
       return {x: -37541, y: 43886};
-    case 'mp_rr_desertlands_mu3':
+    case 'mp_rr_desertlands_mu4':
       return {x: -45056, y: 45055};
-    case 'mp_rr_olympus_mu2':
+    case 'mp_rr_olympus_mu3':
       return {x: -52024, y: 48025};
-    case 'mp_rr_tropic_island_mu1':
+    case 'mp_rr_tropic_island_mu2':
+      return {x: -50606, y: 52139};
+    case 'mp_rr_divided_moon':
       return {x: -50606, y: 52139};
     default:
       return;
