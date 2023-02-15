@@ -90,7 +90,7 @@ function getDataByLevelName(levelName: string) {
       return {x: -52024, y: 48025};
     case 'mp_rr_tropic_island_mu2':
       return {x: -50606, y: 52139};
-    case 'mp_rr_divided_moon':
+    case 'mp_rr_divided_moon_mu1':
       return {x: -50606, y: 52139};
     default:
       return;
