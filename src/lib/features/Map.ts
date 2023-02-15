@@ -84,11 +84,7 @@ function getDataByLevelName(levelName: string) {
   switch (levelName) {
     case 'mp_rr_canyonlands_hu':
       return {x: -37541, y: 43886};
-    case 'mp_rr_desertlands_mu4':
-      return {x: -45056, y: 45055};
     case 'mp_rr_desertlands_mu3':
-      return {x: -45056, y: 45055};
-    case 'mp_rr_desertlands_hu':
       return {x: -45056, y: 45055};
     case 'mp_rr_olympus_mu3':
       return {x: -52024, y: 48025};
