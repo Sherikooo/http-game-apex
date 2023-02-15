@@ -1,7 +1,7 @@
 export const language = {
-  error: 'An error occurred. Check your console.',
-  errorDriver: 'Load this connector in your http-driver.',
-  errorProcess: 'Game not found. Did you run it?',
+  error: 'Error.',
+  errorDriver: 'Lad den Connector im Http-Driver',
+  errorProcess: 'Spiel nicht gefunden bro',
   errorVersion: 'Your http-driver is outdated.',
   reconnect: 'Reconnect'
 };
