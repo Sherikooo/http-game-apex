@@ -1,12 +1,12 @@
 export const offsets = {
   button: {
     inSpeed: 0x07678090,               // [Buttons]                        -> in_speed
-    inAttack: 0x076780e8              // [Buttons]                        -> in_attack
+    inAttack: 0x076782c8              // [Buttons]                        -> in_attack
   },
   core: {
-    levelName: BigInt(0x1462460),     // [Miscellaneous]                  -> LevelName
-    clEntityList: BigInt(0x1b37938),  // [Miscellaneous]                  -> cl_entitylist
-    localPlayer: BigInt(0x01ee8b78)    // [Miscellaneous]                  -> LocalPlayer AVC_GameMovement+0x8
+    levelName: BigInt(0x1462450),     // [Miscellaneous]                  -> LevelName
+    clEntityList: BigInt(0x1b37a78),  // [Miscellaneous]                  -> cl_entitylist
+    localPlayer: BigInt(0x01ee8cb8)    // [Miscellaneous]                  -> LocalPlayer AVC_GameMovement+0x8
   },
   entity: {
     localOrigin: 0x0158,               // [DataMap.CBaseViewModel]         -> m_localOrigin
