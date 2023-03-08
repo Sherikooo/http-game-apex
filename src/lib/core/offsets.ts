@@ -1,12 +1,12 @@
 export const offsets = {
   button: {
-    inSpeed: 0x07678090,               // [Buttons]                        -> in_speed
-    inAttack: 0x076782c8              // [Buttons]                        -> in_attack
+    inSpeed: 0x07678310,               // [Buttons]                        -> in_speed
+    inAttack: 0x07678368              // [Buttons]                        -> in_attack
   },
   core: {
     levelName: BigInt(0x1462450),     // [Miscellaneous]                  -> LevelName
-    clEntityList: BigInt(0x1b37a78),  // [Miscellaneous]                  -> cl_entitylist
-    localPlayer: BigInt(0x01ee8cb8)    // [Miscellaneous]                  -> LocalPlayer AVC_GameMovement+0x8
+    clEntityList: BigInt(0x1b37b18),  // [Miscellaneous]                  -> cl_entitylist
+    localPlayer: BigInt(0x01ee8d58)    // [Miscellaneous]                  -> LocalPlayer AVC_GameMovement+0x8
   },
   entity: {
     localOrigin: 0x0158,               // [DataMap.CBaseViewModel]         -> m_localOrigin
@@ -15,7 +15,7 @@ export const offsets = {
   },
   item: {
     highlightFunctionBits: 0x02c0,     // [RecvTable.DT_HighlightSettings] -> m_highlightFunctionBits
-    customScriptInt: 0x1648         // [RecvTable.DT_PropSurvival]      -> m_customScriptInt
+    customScriptInt: 0x02c0         // [RecvTable.DT_PropSurvival]      -> m_customScriptInt
   },
   player: {
     glowEnable: 0x03c0 + 0x8,                // [RecvTable.DT_HighlightSettings] -> m_highlightServerContextID + 0x8
