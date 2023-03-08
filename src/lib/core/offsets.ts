@@ -15,7 +15,7 @@ export const offsets = {
   },
   item: {
     highlightFunctionBits: 0x02c0,     // [RecvTable.DT_HighlightSettings] -> m_highlightFunctionBits
-    customScriptInt: 0x02c0         // [RecvTable.DT_PropSurvival]      -> m_customScriptInt
+    customScriptInt: 0x1648         // [RecvTable.DT_PropSurvival]      -> m_customScriptInt
   },
   player: {
     glowEnable: 0x03c0 + 0x8,                // [RecvTable.DT_HighlightSettings] -> m_highlightServerContextID + 0x8
